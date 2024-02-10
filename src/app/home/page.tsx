@@ -240,7 +240,7 @@ export default function Home() {
             Logout
           </Button>
         </Box>
-        <DataGrid rows={todoList} columns={columns} pageSize={5} />
+        <DataGrid rows={todoList} columns={columns} />
         <Modal open={openModal} onClose={handleCloseModal}>
           <Box sx={styleModal} component="form">
             <TextField
